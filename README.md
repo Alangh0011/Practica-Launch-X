@@ -12,3 +12,4 @@ FASES REQUERIMIENTO DE SOFTWARE
 - [DISEÑO DE LA ARQUITECTURA DE SOLUCION] vistas 
 - [WIREFRAME] bosquejo
 - [UI] intefas de usuario
+- [BD] este sera el doc para crear la bd
