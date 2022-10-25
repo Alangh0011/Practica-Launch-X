@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <!--style son selectores que son id, class y tiene una jerarquia-->
+    <style>
+        *{/* con el *{} es para todo el html*/
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{/*todo lo que este dentro de body tiene colos de fondo aqua*/
+            background-color: aqua;
+        }
+
+        p{/*indentificador p 
+            colo rojo, alineacion en el centro*/
+            color: red;
+            text-align: center;
+        }
+        /*id se pone # ej.#titulo
+        el rgb  es dinamico con hexadecimal y lo alinea a la derecha */
+        #titulo{
+            color: rgb(200,150,220);
+            text-align: right;
+        }
+        /* el punto . es el nombre de la clase utilizado mas comun
+        izquierda es class pero si hay id y class, tiene mas gerarquia el id*/
+        .izquierda{
+            color: green;
+        }
+        /*tolas las <p> que tengan la class izquierda, ahi lo hara*/
+        p.izquierda{
+            text-decoration: underline;
+            text-align: left;
+        }
+        /*aqui es otra propiedad y se puede agregar dos class diferentes o mas
+        como en h3*/
+        .contraste{
+            background-color: black;
+        }
+        /*etiquetas multiples*/
+        h1, h2, p{
+            font-weight: bold;/*negritas*/
+        }
+
+        /* Comentario CSS */
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Header simple</h1>
+    <h2 id="titulo" class="izquierda">Header con id Titulo</h2>
+    <p>Parrafo simple</p>
+
+    <h3 class="izquierda">Prueba clase Header 3</h3>
+    <p class="izquierda">Prueba clase parrafo</p>
+    <h3 class="izquierda contraste">Prueba multiples clases parrafo</h3>
+    
+</body>
+</html>

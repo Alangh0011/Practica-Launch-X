@@ -1,0 +1,61 @@
+/*fuente especifica, como importarla s opcional */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*alinear desde el css*/
+.izquierda{
+    text-align: left;
+}
+/*alinear derecha*/
+.derecha{
+    text-align: right;
+}
+/*si el punto (.) esta es una class*/
+.centrado{
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;
+}
+/*volteado el direction:rtl es de derecha a izquierda
+y las letras volteadas con bidi-override*/
+.alReves{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+/*texto decorado con decoration 
+linea por encima*/
+.decoradoOverline{
+    text-decoration-line: overline;
+}
+/*linea en medio*/
+.decoradoLineThrough{
+    text-decoration-line: line-through;
+}
+/*linea por abajo*/
+.decoradoUnderline{
+    text-decoration-line: underline;
+}
+/*se le pueden poner varias, roja, punteada por abajo */
+.decoradoCombinado{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+}
+/*negritas el peso de la letra, mas negrita o delgada*/
+.negritas{
+    font-weight: 700;
+}
+
+.ligeras{
+    font-weight: 100;
+}
+/*decoracion de link
+cero decoracion y lo pone en black*/
+.link{
+    text-decoration: none;
+    color: black;
+    
+}

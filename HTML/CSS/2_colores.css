@@ -1,0 +1,28 @@
+/*el selector general*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+/*colores de letra en diferentes formas*/
+.colorRojo{
+    color: red;
+}
+
+.colorRGB{
+    color: rgb(93, 113, 218);
+}
+/*con trasnparencia, para que sea vea por atras*/
+.colorRGBA{
+    color: rgba(93, 217, 93, 0.479);
+}
+
+.colorHEX{
+    color: #EE43E3;
+}
+
+.colorHSL{
+    color: hsl(30, 68%, 31%);
+}
