@@ -1,4 +1,4 @@
-##1.	DESCRIPCION GENERAL DEL REQUERIMIENTO
+## 1.	DESCRIPCION GENERAL DEL REQUERIMIENTO
 
 - **Nombre Requerimiento:** Formulario de solicitudes administradas, de procedimientos y pagos.
 
@@ -10,7 +10,7 @@
 
 - **Nombre Requerimiento:** Alan Javier Gomez Hernandez
 
-##2.	FASE DE FORMALIZACIÓN
+## 2.	FASE DE FORMALIZACIÓN
 
 - **Descripción de la Solicitud** 
     -Usuario Solicitante
